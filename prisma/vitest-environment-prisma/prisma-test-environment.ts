@@ -3,7 +3,6 @@ import { randomUUID } from 'crypto'
 import { Environment } from 'vitest'
 import { execSync } from 'child_process'
 import { PrismaClient } from '@prisma/client'
-import { Schema } from 'zod'
 
 const prisma = new PrismaClient()
 
